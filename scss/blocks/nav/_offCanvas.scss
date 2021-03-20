@@ -1,0 +1,107 @@
+
+// -----------------------------------------------
+// |            Complete Page Wrapper            |
+// -----------------------------------------------
+
+.off-canvas-wrapper {
+	background: #566372;
+}
+
+
+// ----------------------------------------------
+// |            Page Content Wrapper            |
+// ----------------------------------------------
+
+.off-canvas-content {
+	padding: 0;
+	background: #f4f4f4;
+	box-shadow: none;
+}
+
+
+// ------------------------------------------------
+// |            Off-Canvas Menu toggle            |
+// ------------------------------------------------
+
+#offCanvas-menu--toggle {
+	font-size: rem-calc(16);
+	margin-bottom: 0;
+	padding: rem-calc(8);
+	color: #222;
+	border: rem-calc(2) solid #566372;
+	border-radius: rem-calc(6);
+	background: #f4f4f4;
+
+	@include breakpoint(medium) {
+		font-size: rem-calc(22);
+		padding: rem-calc(12);
+	}
+	i.hamburger {
+		vertical-align: bottom;
+
+		@include hamburger($black, $black, rem-calc(18), rem-calc(18), rem-calc(4), 3);
+	}
+}
+
+#mobileNavBar-wrapper {
+	float: right;
+	margin-bottom: rem-calc(16);
+	padding: rem-calc(12) rem-calc(12) 0 0;
+}
+
+#contactModal-toggle {
+	margin-right: rem-calc(12);
+	img {
+		padding-top: rem-calc(4);
+	}
+}
+
+// ------------------------------------------------------
+// |            Off-Canvas Menu close-button            |
+// ------------------------------------------------------
+
+#offCanvas-menu {
+	button.close-button {
+		span {
+			font-size: rem-calc(50);
+			color: #fa8d5c;
+		}
+	}
+}
+
+
+// --------------------------------------------------
+// |            Off-Canvas Menu Contents            |
+// --------------------------------------------------
+
+#offCanvas-menu {
+	h1 {
+		font-size: rem-calc(36);
+		padding-top: rem-calc(8);
+		padding-left: rem-calc(16);
+		color: #fff;
+		text-shadow: rem-calc(-4) rem-calc(4) 0 rgba(0,0,0,.50);
+		a {
+			color: #fff;
+		}
+	}
+	h2 {
+		font-size: rem-calc(22);
+	}
+	ul {
+		li {
+			a {
+				font-size: rem-calc(22);
+				color: #fff;
+			}
+		}
+	}
+}
+
+// --------------------------------------------
+// |            Off-Canvas Overlay            |
+// --------------------------------------------
+
+.js-off-canvas-exit {
+	z-index: 20;
+}

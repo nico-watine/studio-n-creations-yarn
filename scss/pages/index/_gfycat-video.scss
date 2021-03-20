@@ -1,0 +1,121 @@
+// ----------------------------------------------
+// |            Original Page Markup            |
+// ----------------------------------------------
+
+// <header class="bgvid-container">
+// 	<div class="prose text-left color-white">
+// 		<div class="row expanded">
+// 			<div class="small-12 columns">
+// 				<h1>Studio N Creations</h1>
+// 				<h2 class="fontWeight-400">Web Design <span class="display-inline-block">| Graphic Branding</span> <span class="display-inline-block">| Site Maintenance</span></h2>
+// 			</div>
+// 		</div>
+// 	</div>
+// 	<div class="gfyitem gfycatVideo" data-id="BaggyPossibleKiskadee"></div>
+// 	<div class="ie-only">
+// 		<div class="gfycat-cover" id="gfycat-cover"></div>
+// 		<iframe class="gfycatVideo" id="gfycatIE" src='https://gfycat.com/ifr/BaggyPossibleKiskadee' frameborder='0' scrolling='no' allowfullscreen></iframe>
+// 	</div>
+// </header>
+
+
+
+
+
+$medium--min-height-460: 'only screen and (min-width: 40em) and (min-height : 460px)';
+$min-height-400: 'only screen and (min-height : 400px)';
+$min-height-740: 'only screen and (min-height : 740px)';
+$min-height-870: 'only screen and (min-height : 870px)';
+$min-height-1050: 'only screen and (min-height : 1050px)';
+
+.bgvid-container {
+	position: relative;
+	text-align: center;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	height: rem-calc(460);
+
+	@media #{$min-height-740} {
+		height: rem-calc(700);
+	}
+
+	@media #{$min-height-870} {
+		height: rem-calc(800);
+	}
+
+	@media #{$min-height-1050} {
+		height: rem-calc(900);
+	}
+
+	div {
+		position: static !important;
+
+		.gfy-video {
+			position: absolute !important;
+			z-index: 1 !important;
+			left: 50% !important;
+			min-width: 100% !important;
+			min-height: 100% !important;
+			top: 50% !important;
+			-webkit-transform: translateX(-50%) translateY(-50%) !important;
+			        transform: translateX(-50%) translateY(-50%) !important;
+			width: auto !important;
+			height: auto !important;
+		}
+	}
+}
+
+
+// ------------------------------------------
+// |            Gfycat IE Styles            |
+// ------------------------------------------
+
+
+.gfycatVideo {
+	display: none;
+	visibility: hidden;
+
+	@media #{$medium--min-height-460} {
+		display: block;
+		visibility: visible;
+	}
+}
+
+.gfycat-cover#gfycat-cover {
+	position: absolute !important;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+
+
+iframe#gfycatIE {
+	position: absolute;
+	width: rem-calc(2000);
+	top: 0;
+	left: rem-calc(-400);
+	height: 150%;
+
+
+	@include breakpoint(large) {
+		left: rem-calc(-200);
+		height: 210%;
+
+		@media #{$min-height-740} {
+			top: rem-calc(-300);
+		}
+
+		@media #{$min-height-1050} {
+			top: rem-calc(-400);
+		}
+	}
+
+	@include breakpoint(xxlarge) {
+		@media #{$min-height-740} {
+			left: 0;
+		}
+	}
+}

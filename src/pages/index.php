@@ -1,350 +1,193 @@
 ---
 url: /
-title:
-description:
-og-title:
-og-description:
-og-image:
+title: Web Design & Site Maintenance
+description: We design, brand, code and maintain mobile-optimized websites for projects of all sizes. Located in Houston, TX, available anywhere.
+og-title: Web Design & Site Maintenance | Studio N Creations
+og-description: We create phone-friendly websites for projects of all sizes. From the design and branding to the coding and maintenance, we've got your web needs covered. Located in Houston, TX, available anywhere.
+og-image: /img/assets/og-images/index/studio-n-creations-og-image-1.png
 body-id: index
-body-class: index
+body-class: index bodyLayout-unique
 ---
-<br>
-
-<div class="row">
-	<div class="columns">
-		<h1>Welcome to Foundation for Sites</h1>
-	</div>
-</div>
-
-<br>
-
-<div class="grid-container">
-	<div class="grid-x">
-		<div class="cell callout">
-			<div class="grid-x grid-padding-x">
-				<div class="cell">
-					<h3>We&rsquo;re stoked you want to try Foundation!</h3>
-					<p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-					<p>Once you've exhausted the fun in this document, you should check out:</p>
-				</div>
-			</div>
-			<div class="grid-x grid-padding-x">
-				<div class="cell medium-4">
-					<p><a target="_blank" href="https://get.foundation/sites/docs/">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-				</div>
-				<div class="cell medium-4">
-					<p><a target="_blank" href="https://get.foundation/building-blocks/">Foundation Building Blocks</a><br />A Library of Foundation UI Components. These HTML, CSS and JS snippets can be plugged into any Foundation project to build faster. Enjoy!</p>
-				</div>
-				<div class="cell medium-4">
-					<p><a target="_blank" href="https://foundation.discourse.group/">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-				</div>
-			</div>
-			<div class="grid-x grid-padding-x align-center">
-				<div class="cell medium-4">
-					<p><a target="_blank" href="https://github.com/foundation/foundation-sites">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-				</div>
-				<div class="cell medium-4">
-					<p><a target="_blank" href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
+<header class="splash-video-header grid-x position-relative overflow-hidden">
+	<div class="grid-container fluid" style="width: 100%;">
+		<div class="grid-x grid-padding-x align-bottom prose-grid">
+			<div class="prose-cell cell color-white">
+				<div class="grid-container">
+					<h1>Studio N Creations</h1>
+					<h2 class="fontWeight-400">Web Design <span class="display-inline-block">| Site Maintenance</span></h2>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-
-<hr>
-
-<div class="row">
-	<div class="columns">
-		<h1>Typography Styles</h1>
-	</div>
-</div>
-
-<hr>
-
-<div class="row">
-	<div class="columns">
-		<h1>h1 - An Equal Amount Of Text</h1>
-		<code><span class="show-for-small-only">32px</span><span class="show-for-medium">50px</span>/1.4 +8</code>
-		<br>
-		<br>
-		<h2>h2 - An Equal Amount Of Text</h2>
-		<code><span class="show-for-small-only">26px</span><span class="show-for-medium">38px</span>/1.4 +8</code>
-		<br>
-		<br>
-		<h3>h3 - An Equal Amount Of Text</h3>
-		<code><span class="show-for-small-only">22px</span><span class="show-for-medium">28px</span>/1.4 +8</code>
-		<br>
-		<br>
-		<h4>h4 - An Equal Amount Of Text</h4>
-		<code><span class="show-for-small-only">18px</span><span class="show-for-medium">21px</span>/1.4 +8</code>
-		<br>
-		<br>
-		<h5>h5 - An Equal Amount Of Text</h5>
-		<code><span class="show-for-small-only">16px</span><span class="show-for-medium">16px</span>/1.4 +8</code>
-		<br>
-		<br>
-		<h6>h6 - An Equal Amount Of Text</h6>
-		<code><span class="show-for-small-only">14px</span><span class="show-for-medium">14px</span>/1.4 +8</code>
-		<br>
-		<br>
-		<p>p - An Equal Amount Of Text</p>
-		<code>16px/1.6 +16</code>
-	</div>
-</div>
-
-<hr>
-
-<div class="row">
-	<div class="columns">
-		<h1><small><code>box-shadow</code></small> Styles</h1>
-	</div>
-</div>
-
-<hr>
-
-<div class="row">
-	<div class="large-3 columns">
-		<h4>The values for these classes are inspired by Material Design paper shadow.</h4>
-		<br>
-		<br>
-	</div>
-	<div class="large-9 columns text-center">
-		<div class="row">
-			<div class="medium-4 columns">
-				<div class="py-16" style="border-radius: 4px; border: 1px solid #e6e6e6;">
-					<p style="margin-bottom: 12px;"><small><code>border</code></small> added for display</p>
-					<code>box-shadow: 0;</code>
-				</div>
-				<br>
-				<br>
-			</div>
-			<div class="medium-4 columns">
-				<div class="box-shadow-1 py-16" style="border-radius: 4px; border: 1px solid #e6e6e6;">
-					<p style="margin-bottom: 12px;">Class: <small><code>.box-shadow-1</code></small></p>
-					<code>box-shadow: $z-1;</code>
-				</div>
-				<br>
-				<br>
-			</div>
-			<div class="medium-4 columns">
-				<div class="box-shadow-2 py-16" style="border-radius: 4px; border: 1px solid #e6e6e6;">
-					<p style="margin-bottom: 12px;">Class: <small><code>.box-shadow-2</code></small></p>
-					<code>box-shadow: $z-2;</code>
-				</div>
-				<br>
-				<br>
-			</div>
-		</div>
-		<div class="row">
-			<div class="medium-4 columns">
-				<div class="box-shadow-3 py-16" style="border-radius: 4px; border: 1px solid #e6e6e6;">
-					<p style="margin-bottom: 12px;">Class: <small><code>.box-shadow-3</code></small></p>
-					<code>box-shadow: $z-3;</code>
-				</div>
-				<br>
-				<br>
-			</div>
-			<div class="medium-4 columns">
-				<div class="box-shadow-4 py-16" style="border-radius: 4px; border: 1px solid #e6e6e6;">
-					<p style="margin-bottom: 12px;">Class: <small><code>.box-shadow-4</code></small></p>
-					<code>box-shadow: $z-4;</code>
-				</div>
-				<br>
-				<br>
-			</div>
-			<div class="medium-4 columns">
-				<div class="box-shadow-5 py-16" style="border-radius: 4px; border: 1px solid #e6e6e6;">
-					<p style="margin-bottom: 12px;">Class: <small><code>.box-shadow-5</code></small></p>
-					<code>box-shadow: $z-5;</code>
-				</div>
-				<br>
-				<br>
-			</div>
-		</div>
-	</div>
-</div>
-
-<br>
-<br>
-<hr>
-
-<div class="row">
-	<div class="columns">
-		<h1><strong>XY Grid</strong> Layout Example</h1>
-		<h5>Here&rsquo;s your basic grid:</h5>
-		<br>
-	</div>
-</div>
-
-<div class="grid-container">
-	<div class="grid-x grid-padding-x">
+	<div class="grid-x position-absolute w-100 h-100" style="width: 100%; height: 100%;">
 		<div class="cell">
-			<div class="grid-x grid-padding-x">
-				<div class="cell">
-					<div class="primary callout">
-						<p><strong>This is a twelve cell section in a grid-x</strong> (<code>.grid-x &gt; .cell</code>)<strong>.</strong> Each of these includes a div.callout element so you can see where the cell are - it's not required at all for the grid.</p>
-					</div>
-				</div>
-			</div>
-			<div class="grid-x grid-padding-x">
-				<div class="medium-6 cell">
-					<div class="primary callout">
-						<p>Six cell (<code>.medium-6.cell</code>)</p>
-					</div>
-				</div>
-				<div class="medium-6 cell">
-					<div class="primary callout">
-						<p>Six cell (<code>.medium-6.cell</code>)</p>
-					</div>
-				</div>
-			</div>
-			<div class="grid-x grid-padding-x">
-				<div class="small-4 cell">
-					<div class="primary callout">
-						<p>Four cell (<code>.small-4.cell</code>)</p>
-					</div>
-				</div>
-				<div class="small-4 cell">
-					<div class="primary callout">
-						<p>Four cell (<code>.small-4.cell</code>)</p>
-					</div>
-				</div>
-				<div class="small-4 cell">
-					<div class="primary callout">
-						<p>Four cell (<code>.small-4.cell</code>)</p>
-					</div>
-				</div>
+			<video playsinline autoplay muted loop preload="auto" poster="{{ cdn }}/img/index/website-mashup-video/studio-n-creations-website-mashup-poster.jpg" id="backgroundVideo">
+				<source src="{{ cdn }}/img/index/website-mashup-video/studio-n-creations-website-mashup.mp4" type="video/mp4">
+				<source src="{{ cdn }}/img/index/website-mashup-video/studio-n-creations-website-mashup.webm" type="video/webm">
+				<source src="{{ cdn }}/img/index/website-mashup-video/studio-n-creations-website-mashup.ogv" type="video/ogg">
+			</video>
+		</div>
+	</div>
+</header>
+
+<section class="intro-slogan">
+	<div class="row">
+		<div class="medium-6 columns medium-text-right">
+			<h2>I create phone-friendly websites for projects of all sizes</h2>
+		</div>
+		<div class="medium-5 columns end">
+			<div class="prose">
+				<p>No client is too big or too small. Whether you need a single brochure-type landing page or a full featured e-commerce site, I've got you covered.</p>
 			</div>
 		</div>
 	</div>
-</div>
-
-<br>
-<hr>
-
-<div class="row">
-	<div class="columns">
-		<h1><strong>Float Grid</strong> Layout Example <small>(Legacy)</small></h1>
-		<h5>Here&rsquo;s your basic grid:</h5>
-		<br>
-	</div>
-</div>
-
-<div class="row">
-	<div class="columns">
-		<div class="primary callout">
-			<p><strong>This is a twelve column section in a row</strong> (<code>.row &gt; .columns</code>)<strong>.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
+</section>
+<section class="recent-projects">
+	<div class="row">
+		<div class="small-12 columns text-center">
+			<h3>Recent Projects</h3>
 		</div>
 	</div>
-</div>
-<div class="row">
-	<div class="medium-6 columns">
-		<div class="primary callout">
-			<p>Six columns (<code>.medium-6.columns</code>)</p>
-		</div>
-	</div>
-	<div class="medium-6 columns">
-		<div class="primary callout">
-			<p>Six columns (<code>.medium-6.columns</code>)</p>
-		</div>
-	</div>
-</div>
-<div class="row">
-	<div class="small-4 columns">
-		<div class="primary callout">
-			<p>Four columns (<code>.small-4.columns</code>)</p>
-		</div>
-	</div>
-	<div class="small-4 columns">
-		<div class="primary callout">
-			<p>Four columns (<code>.small-4.columns</code>)</p>
-		</div>
-	</div>
-	<div class="small-4 columns">
-		<div class="primary callout">
-			<p>Four columns (<code>.small-4.columns</code>)</p>
-		</div>
-	</div>
-</div>
-
-<br>
-<hr>
-<br>
-<br>
-
-<div class="row">
-	<div class="medium-8 columns">
-
-	<h5>We bet you&rsquo;ll need a form somewhere:</h5>
-
-	<form>
-		<div class="row">
-			<div class="columns">
-				<label>Input Label</label>
-				<input type="text" placeholder="large-12.columns" />
-			</div>
-		</div>
-		<div class="row">
-			<div class="medium-4 columns">
-				<label>Input Label</label>
-				<input type="text" placeholder="large-4.columns" />
-			</div>
-			<div class="medium-4 columns">
-				<label>Input Label</label>
-				<input type="text" placeholder="large-4.columns" />
-			</div>
-			<div class="medium-4 columns">
-				<div class="row collapse">
-					<label>Input Label</label>
-					<div class="input-group">
-						<input class="input-group-field" type="text" placeholder="input-group" />
-						<span class="input-group-label">.com</span>
+	<!-- Miriam-Rodriguez & PALS -->
+	<div class="row small-collapse xlarge-uncollapse">
+		<div class="medium-6 columns">
+			<div class="projectCard text-center">
+				<div class="projectCard-info">
+					<div class="prose">
+						<h3>Miriam Rodríguez</h3>
+						<h4>International Bridal Couturier</h4>
+						<br>
+						<a class="button long-word" href="http://miriamrodriguez.com/eng/" target="_blank">www.MiriamRodriguez.com</a>
 					</div>
+				</div>
+				<div class="projectCard-image">
+					<img srcset="{{ cdn }}/img/projects/miriam-rodriguez/index/projectCard/miriam_rodriguez_website_2x.jpg 2x" src="{{ cdn }}/img/projects/miriam-rodriguez/index/projectCard/miriam_rodriguez_website.jpg" alt="Miriam Rodríguez Couturier website mockup">
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="columns">
-				<label>Select Box</label>
-				<select>
-					<option value="husker">Husker</option>
-					<option value="starbuck">Starbuck</option>
-					<option value="hotdog">Hot Dog</option>
-					<option value="apollo">Apollo</option>
-				</select>
+		<div class="medium-6 columns">
+			<div class="projectCard text-center" id="testCard">
+				<div class="projectCard-info">
+					<div class="prose">
+						<h3>Houston PALS</h3>
+						<h4>Specialized Veterinary Services</h4>
+						<br>
+						<a class="button" href="http://houstonpals.com/" target="_blank">www.HoustonPALS.com</a>
+					</div>
+				</div>
+				<div class="projectCard-image">
+					<img srcset="{{ cdn }}/img/projects/houston-pals/index/projectCard/houston-pals-logo-website-thumbnail_2x.jpg 2x" src="{{ cdn }}/img/projects/houston-pals/index/projectCard/houston-pals-logo-website-thumbnail.jpg" alt="Houston PALS website mockup">
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="medium-6 columns">
-				<label>Choose Your Favorite</label>
-				<input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-				<input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-			</div>
-			<div class="medium-6 columns">
-				<label>Check these out</label>
-				<input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-				<input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-			</div>
-		</div>
-		<div class="row">
-			<div class="columns">
-				<label>Textarea Label</label>
-				<textarea placeholder="small-12.columns"></textarea>
-			</div>
-		</div>
-	</form>
-	</div>
-
-	<div class="medium-4 columns">
-		<h5>Try one of these buttons:</h5>
-		<p><a href="#" class="small button">Simple Button</a><br/>
-		<a href="#" class="medium success button">Success Btn</a><br/>
-		<a href="#" class="medium alert button">Alert Btn</a><br/>
-		<a href="#" class="medium secondary button">Secondary Btn</a></p>
-		<div class="callout">
-			<h5>So many components, girl!</h5>
-			<p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-			<a target="_blank" href="https://get.foundation/sites/docs/" class="small button">Go to Foundation Docs</a>
 		</div>
 	</div>
-</div>
+	<!-- DOFV & ESP -->
+	<div class="row small-collapse xlarge-uncollapse">
+		<div class="medium-6 columns">
+			<div class="projectCard text-center">
+				<div class="projectCard-info">
+					<div class="prose">
+						<h3>The Deck On Fountainview</h3>
+						<h4>Restaurant Industry</h4>
+						<br>
+						<a class="button" href="http://thedeckonfountainview.com/" target="_blank">www.thedeckonfountainview.com</a>
+					</div>
+				</div>
+				<div class="projectCard-image">
+					<img srcset="{{ cdn }}/img/projects/the-deck-on-fountainview/index/projectCard/deck-on-fountainview-website-thumbnail_2x.jpg 2x" src="{{ cdn }}/img/projects/the-deck-on-fountainview/index/projectCard/deck-on-fountainview-website-thumbnail.jpg" alt="The Deck On Fountainview website mockup">
+				</div>
+			</div>
+		</div>
+		<div class="medium-6 columns">
+			<div class="projectCard text-center">
+				<div class="projectCard-info">
+					<div class="prose">
+						<h3>Essential Sound Production</h3>
+						<h4>DJ Entertainment Services</h4>
+						<br>
+						<a class="button long-word" href="http://essentialsoundproduction.com/" target="_blank">www.EssentialSoundProduction.com</a>
+					</div>
+				</div>
+				<div class="projectCard-image">
+					<img srcset="{{ cdn }}/img/projects/essential-sound-production/index/projectCard/essential-sound-production-website-thumbnail_2x.jpg 2x" src="{{ cdn }}/img/projects/essential-sound-production/index/projectCard/essential-sound-production-website-thumbnail.jpg" alt="Essential Sound Production website mockup">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- JDF & HIP -->
+	<div class="row small-collapse xlarge-uncollapse">
+		<div class="medium-6 columns">
+			<div class="projectCard text-center">
+				<div class="projectCard-info">
+					<div class="prose">
+						<h3>Jardin de France</h3>
+						<h4>Brick & Mortar Antique Shop</h4>
+						<br>
+						<a class="button" href="http://jardindefrancetx.com/" target="_blank">www.JardinDeFranceTX.com</a>
+					</div>
+				</div>
+				<div class="projectCard-image">
+					<img srcset="{{ cdn }}/img/projects/jardin-de-france-tx/index/projectCard/jardin-de-france-tx-website-thumbnail_2x.jpg 2x" src="{{ cdn }}/img/projects/jardin-de-france-tx/index/projectCard/jardin-de-france-tx-website-thumbnail.jpg" alt="Jardin de France TX website mockup">
+				</div>
+			</div>
+		</div>
+		<div class="medium-6 columns">
+			<div class="projectCard text-center">
+				<div class="projectCard-info">
+					<div class="prose">
+						<h3>Houston Interior Plants</h3>
+						<h4>E-Commerce Plant Shop</h4>
+						<br>
+						<a class="button" href="http://houstoninteriorplants.com/" target="_blank">www.HoustonInteriorPlants.com</a>
+					</div>
+				</div>
+				<div class="projectCard-image">
+					<img srcset="{{ cdn }}/img/projects/houston-interior-plants/index/projectCard/houston-interior-plants-website-thumbnail_2x.jpg 2x" src="{{ cdn }}/img/projects/houston-interior-plants/index/projectCard/houston-interior-plants-website-thumbnail.jpg" alt="Houston Interior Plants website mockup">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="graphic-branding">
+	<div class="row collapse" data-equalizer data-equalize-on="medium">
+		<div class="medium-push-1 medium-11 large-4 large-push-0 columns" data-equalizer-watch>
+			<div class="prose">
+				<h3>Graphic Branding</h3>
+				<p>Web design means more than just a page design. Having a solid visual brand, such as through logos and colors, helps maintain design consistency, leaving a professional impression on the visitor. Here are a few of the custom logos I have created for clients.</p>
+			</div>
+		</div>
+		<div class="medium-12 large-8 columns" data-equalizer-watch>
+			<div class="row logos-row collapse">
+				<div class="medium-4 columns text-center column-1">
+					<div class="dynasty-sports-report-wrapper">
+						<img srcset="{{ cdn }}/img/projects/dynasty-sports-report/index/graphic-design/dynasty-sports-report-logo_2x.png 2x" src="{{ cdn }}/img/projects/dynasty-sports-report/index/graphic-design/dynasty-sports-report-logo.png" alt="Dynasty Sports Report logo" title="DynastySportsReport.com website logo - a Studio N Creation">
+					</div>
+					<img class="dmesa-home-img show-for-large" srcset="{{ cdn }}/img/projects/dmesa/index/graphic-design/dmesa-logo_2x.png 2x" src="{{ cdn }}/img/projects/dmesa/index/graphic-design/dmesa-logo.png" alt="d'Mesa Home logo" title="d'Mesa Home company logo - a Studio N Creation">
+				</div>
+				<div class="medium-push-4 medium-3 columns hide-for-large text-center dmesa-home-wrapper column-2">
+					<img srcset="{{ cdn }}/img/projects/dmesa/index/graphic-design/dmesa-logo_2x.png 2x" src="{{ cdn }}/img/projects/dmesa/index/graphic-design/dmesa-logo.png" alt="d'Mesa Home logo" title="d'Mesa Home company logo - a Studio N Creation">
+				</div>
+				<div class="medium-5 large-8 columns jardin-de-france-wrapper column-3">
+					<img srcset="{{ cdn }}/img/projects/jardin-de-france-tx/index/graphic-design/jardin-de-france-price-tag_2x.jpg 2x" src="{{ cdn }}/img/projects/jardin-de-france-tx/index/graphic-design/jardin-de-france-price-tag.jpg" alt="Jardin de France TX logo" title="Jardin de France TX product price tag design - a Studio N Creation">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="about-us">
+	<div class="row" itemscope itemtype="http://schema.org/Person">
+		<div class="medium-4 large-3 columns medium-text-center large-text-right image">
+			<div class="small-6 medium-12 columns no-padding">
+				<img srcset="{{ cdn }}/img/index/about-us/hello-lanyard_2x.jpg 2x" src="{{ cdn }}/img/index/about-us/hello-lanyard.jpg" alt="Nico Watine is Studio N Creations" title="HELLO my name is Nico Watine" itemprop="image">
+			</div>
+			<div class="small-6 columns hide-for-medium">
+				<h3>About Us</h3>
+			</div>
+		</div>
+		<div class="medium-8 large-9 columns prose">
+			<h3 class="show-for-medium">About Me</h3>
+			<h4>My name is <span itemprop="name">Nico Watine</span>, and I am the <span class="display-inline-block" itemprop="affiliation">Studio N Creations</span> team.</h4>
+			<p>I design, brand, code and maintain mobile-optimized websites for projects of all sizes. I’m located in Houston, TX, and am available for hire anywhere. I'm a <span itemprop="jobTitle">web developer</span> and am passionate about what I do. I love working with people who are excited about their new web project.</p>
+		</div>
+	</div>
+</section>

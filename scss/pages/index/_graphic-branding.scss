@@ -1,0 +1,95 @@
+#index {
+	.graphic-branding {
+		background: #fff;
+
+		.prose {
+			padding: rem-calc(30) rem-calc(16);
+		}
+
+		.logos-row {
+			background: #f9f9f9;
+
+			.dynasty-sports-report-wrapper,
+			.column-1 {
+				background: #1e73bd;
+			}
+
+			.dmesa-home-wrapper {
+				@include breakpoint(small only) {
+					img {
+						margin: rem-calc(30) 0;
+					}
+				}
+			}
+
+			.jardin-de-france-wrapper {
+				background: #fff;
+
+				@include breakpoint(small only) {
+					img {
+						width: 100%;
+						height: auto;
+					}
+				}
+			}
+		}
+	}
+}
+
+@include breakpoint(medium only) {
+	#index {
+		.graphic-branding {
+			.logos-row {
+				position: relative;
+
+				.column-1,
+				.column-2 {
+					position: absolute;
+					height: 100%;
+
+					img {
+						@include absolute-center;
+					}
+				}
+
+				.dmesa-home-wrapper {
+					img {
+						padding: 0 rem-calc(10);
+					}
+				}
+
+				.dynasty-sports-report-wrapper {
+					img {
+						max-height: 90%;
+					}
+				}
+			}
+		}
+	}
+}
+
+@include breakpoint(large) {
+	#index {
+		.graphic-branding {
+			.logos-row {
+				margin-top: 0;
+
+				.column-1 {
+					background: none;
+				}
+
+				.dmesa-home-img {
+					padding: rem-calc(30) rem-calc(10);
+				}
+
+				.jardin-de-france-wrapper {
+					img {
+						max-width: none;
+						height: 100%;
+						overflow: hidden;
+					}
+				}
+			}
+		}
+	}
+}

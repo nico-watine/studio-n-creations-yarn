@@ -1,0 +1,81 @@
+@import 'typography/_fonts.scss';
+
+
+h1,
+h3,
+.monospace {
+	font-family: 'Source Code Pro', Consolas, 'Liberation Mono', Courier, monospace;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.sansSerif {
+	font-family: $body-font-family;
+}
+
+h2 {
+	font-weight: 700;
+}
+
+p {
+	font-size: rem-calc(18);
+
+	@include breakpoint(medium) {
+		font-size: rem-calc(16);
+	}
+}
+
+p,
+h6 {
+	font-weight: 300;
+}
+
+h5,
+h6 {
+	text-transform: uppercase;
+}
+
+h5 {
+	letter-spacing: rem-calc(1.2);
+}
+
+h6 {
+	letter-spacing: rem-calc(1);
+}
+
+@include breakpoint(medium) {
+	h5,
+	h6 {
+		letter-spacing: rem-calc(1.5);
+	}
+}
+
+// -------------------------------------
+// |            text colors            |
+// -------------------------------------
+
+.color-white {
+	color: #fff;
+}
+
+
+// -------------------------------------
+// |            text-shadow            |
+// -------------------------------------
+
+.text-shadow-black {
+	text-shadow: rem-calc(-2) rem-calc(3) 0 rgba(0,0,0,.80);
+}
+
+
+// -------------------------------------
+// |            font-weight            |
+// -------------------------------------
+
+.font-weight-300 {
+	font-weight: 300;
+}
+
+.font-weight-normal {
+	font-weight: normal;
+}
