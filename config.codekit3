@@ -41,17 +41,6 @@
 		"oAP": "/_ignores/autoprefixer-browser-string.txt",
 		"oF": 0
 		},
-	"/_ignores/codekit-icon.png": {
-		"ft": 32768,
-		"iS": 1102541,
-		"oA": 1,
-		"oAP": "/_ignores/codekit-icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/_ignores/htaccess/force-https.txt": {
 		"cB": 0,
 		"ft": 8192,
@@ -60,20 +49,20 @@
 		"oAP": "/_ignores/htaccess/force-https.txt",
 		"oF": 0
 		},
-	"/_ignores/zurb-f6-boilerplate-yarn.sublime-project": {
+	"/_ignores/studio-n-creations-yarn.sublime-project": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_ignores/zurb-f6-boilerplate-yarn.sublime-project",
+		"oAP": "/_ignores/studio-n-creations-yarn.sublime-project",
 		"oF": 0
 		},
-	"/_ignores/zurb-f6-boilerplate-yarn.sublime-workspace": {
+	"/_ignores/studio-n-creations-yarn.sublime-workspace": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_ignores/zurb-f6-boilerplate-yarn.sublime-workspace",
+		"oAP": "/_ignores/studio-n-creations-yarn.sublime-workspace",
 		"oF": 0
 		},
 	"/assets": {
@@ -100,12 +89,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"/dist": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/dist",
-		"oF": 0
-		},
 	"/gulpfile.babel.js": {
 		"bF": 0,
 		"ft": 64,
@@ -116,14 +99,6 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
-		},
-	"/Icon\r": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Icon\r",
-		"oF": 0
 		},
 	"/img/folderHolder.jpg": {
 		"ft": 16384,
@@ -163,56 +138,6 @@
 		"oA": 1,
 		"oAP": "/build/js/vendor",
 		"oF": 0
-		},
-	"/node_modules": {
-		"ft": 65536,
-		"oA": 2,
-		"oAP": "/build/node_modules",
-		"oF": 0
-		},
-	"/node_modules/gulp/index.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "/js/index-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/panini/index.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "/js/index-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/rimraf/rimraf.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "/js/rimraf-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/node_modules/yargs/./index.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "/js/index-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
 		},
 	"/package.json": {
 		"ft": 524288,
@@ -624,14 +549,6 @@
 		"oAP": "/build/src",
 		"oF": 0
 		},
-	"/TODO": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/TODO",
-		"oF": 0
-		},
 	"/yarn.lock": {
 		"cB": 0,
 		"ft": 8192,
@@ -647,10 +564,10 @@
 	},
 "projectAttributes": {
 	"creationDate": 502296054,
-	"displayValue": "zurb-f6-boilerplate-yarn",
+	"displayValue": "studio-n-creations-yarn",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "/_ignores/codekit-icon.png",
-	"iconImageWasSetByUser": 1
+	"iconImageName": "meme-thinking",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
