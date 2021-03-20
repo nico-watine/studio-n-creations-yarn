@@ -1,6 +1,6 @@
 {
-  "name": "zurb-f6-boilerplate-yarn",
-  "description": "macOS-optimized boilerplate built on ZURB's 'Advanced' Foundation 6 framework and for use with Yarn",
+  "name": "studio-n-creations-yarn",
+  "description": "studioncreations.com repo built on zurb-f6-boilerplate-yarn",
   "scripts": {
     "start": "gulp",
     "build": "gulp build --production"
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nico-watine/zurb-f6-boilerplate-yarn"
+    "url": "https://github.com/nico-watine/studio-n-creations-yarn"
   },
   "babel": {
     "presets": [
@@ -33,7 +33,7 @@
     ]
   },
   "dependencies": {
-    "foundation-sites": "6.6.3",
+    "foundation-sites": "6.5.3",
     "jquery": "3.5.1",
     "motion-ui": "^2.0.2",
     "what-input": ">=4.1.0"
