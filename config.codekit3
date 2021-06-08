@@ -17,6 +17,19 @@
       "oAP" : "\/_ignores\/autoprefixer-browser-string.txt",
       "oF" : 0
     },
+    "\/_ignores\/codekit-icon.png" : {
+      "ft" : 32768,
+      "iS" : 7056,
+      "oA" : 1,
+      "oAP" : "\/_ignores\/codekit-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/_ignores\/git-branch-previews\/feature\/obsolete\/index\/mockups-with-modals.png" : {
       "ft" : 32768,
       "iS" : 948833,
@@ -1613,8 +1626,8 @@
     "creationDate" : 502296054,
     "displayValue" : "studio-n-creations-yarn",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "meme-thinking",
-    "iconImageWasSetByUser" : 0
+    "iconImageName" : "\/_ignores\/codekit-icon.png",
+    "iconImageWasSetByUser" : 1
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
