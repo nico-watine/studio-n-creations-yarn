@@ -1625,7 +1625,7 @@
   "projectAttributes" : {
     "creationDate" : 502296054,
     "displayValue" : "studio-n-creations-yarn",
-    "displayValueWasSetByUser" : 0,
+    "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/_ignores\/codekit-icon.png",
     "iconImageWasSetByUser" : 1
   },
