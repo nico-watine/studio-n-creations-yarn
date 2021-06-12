@@ -640,6 +640,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/our-services\/web-development\/design-into-code-conversion\/photoshop-2021_2x.png" : {
+      "ft" : 32768,
+      "iS" : 2338,
+      "oA" : 1,
+      "oAP" : "\/img\/our-services\/web-development\/design-into-code-conversion\/photoshop-2021_2x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/our-services\/web-development\/design-into-code-conversion\/photoshop-2021.png" : {
+      "ft" : 32768,
+      "iS" : 1655,
+      "oA" : 1,
+      "oAP" : "\/img\/our-services\/web-development\/design-into-code-conversion\/photoshop-2021.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/our-services\/web-development\/design-into-code-conversion\/photoshop.png" : {
       "ft" : 32768,
       "iS" : 1043,
