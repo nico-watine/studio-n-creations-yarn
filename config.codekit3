@@ -314,6 +314,12 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/dist" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/dist",
+      "oF" : 0
+    },
     "\/gulpfile.babel.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -652,6 +658,32 @@
       "iS" : 7441,
       "oA" : 1,
       "oAP" : "\/img\/our-services\/web-development\/design-into-code-conversion\/sketch-app_2x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/our-services\/web-development\/design-into-code-conversion\/sketch-app-2021_2x.png" : {
+      "ft" : 32768,
+      "iS" : 14268,
+      "oA" : 1,
+      "oAP" : "\/img\/our-services\/web-development\/design-into-code-conversion\/sketch-app-2021_2x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/our-services\/web-development\/design-into-code-conversion\/sketch-app-2021.png" : {
+      "ft" : 32768,
+      "iS" : 6098,
+      "oA" : 1,
+      "oAP" : "\/img\/our-services\/web-development\/design-into-code-conversion\/sketch-app-2021.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
