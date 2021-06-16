@@ -57,7 +57,7 @@ body-class: index bodyLayout-unique
 						<h3>Miriam Rodríguez</h3>
 						<h4>International Bridal Couturier</h4>
 						<br>
-						<a class="button long-word" href="http://miriamrodriguez.com/eng/" target="_blank">www.MiriamRodriguez.com</a>
+						<a class="button long-word" href="http://miriamrodriguez.com/eng/">www.MiriamRodriguez.com</a>
 					</div>
 				</div>
 				<div class="projectCard-image">
@@ -72,7 +72,7 @@ body-class: index bodyLayout-unique
 						<h3>Houston PALS</h3>
 						<h4>Specialized Veterinary Services</h4>
 						<br>
-						<a class="button" href="http://houstonpals.com/" target="_blank">www.HoustonPALS.com</a>
+						<a class="button" href="https://houstonpals.com/">www.HoustonPALS.com</a>
 					</div>
 				</div>
 				<div class="projectCard-image">
@@ -90,7 +90,7 @@ body-class: index bodyLayout-unique
 						<h3>The Deck On Fountainview</h3>
 						<h4>Restaurant Industry</h4>
 						<br>
-						<a class="button" href="http://thedeckonfountainview.com/" target="_blank">www.thedeckonfountainview.com</a>
+						<a class="button" href="https://thedeckonfountainview.com/">www.thedeckonfountainview.com</a>
 					</div>
 				</div>
 				<div class="projectCard-image">
@@ -105,7 +105,7 @@ body-class: index bodyLayout-unique
 						<h3>Essential Sound Production</h3>
 						<h4>DJ Entertainment Services</h4>
 						<br>
-						<a class="button long-word" href="http://essentialsoundproduction.com/" target="_blank">www.EssentialSoundProduction.com</a>
+						<a class="button long-word" href="http://essentialsoundproduction.com/">www.EssentialSoundProduction.com</a>
 					</div>
 				</div>
 				<div class="projectCard-image">
@@ -123,7 +123,7 @@ body-class: index bodyLayout-unique
 						<h3>Jardin de France</h3>
 						<h4>Brick & Mortar Antique Shop</h4>
 						<br>
-						<a class="button" href="http://jardindefrancetx.com/" target="_blank">www.JardinDeFranceTX.com</a>
+						<a class="button" href="https://jardindefrancetx.com/">www.JardinDeFranceTX.com</a>
 					</div>
 				</div>
 				<div class="projectCard-image">
@@ -138,7 +138,7 @@ body-class: index bodyLayout-unique
 						<h3>Houston Interior Plants</h3>
 						<h4>E-Commerce Plant Shop</h4>
 						<br>
-						<a class="button" href="http://houstoninteriorplants.com/" target="_blank">www.HoustonInteriorPlants.com</a>
+						<a class="button" href="https://houstoninteriorplants.com/">www.HoustonInteriorPlants.com</a>
 					</div>
 				</div>
 				<div class="projectCard-image">
