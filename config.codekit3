@@ -1521,7 +1521,7 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/scss\/components\/typography\/_fonts.scss" : {
+    "\/scss\/components\/typography\/_google-fonts-import.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1529,7 +1529,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/components\/css\/_fonts.css",
+      "oAP" : "\/scss\/components\/css\/_google-fonts-import.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
