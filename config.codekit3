@@ -9,6 +9,20 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/_ignores\/_google-fonts-import.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_google-fonts-import.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/_ignores\/autoprefixer-browser-string.txt" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1521,7 +1535,7 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/scss\/components\/typography\/_google-fonts-import.scss" : {
+    "\/scss\/components\/typography\/_font-family.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1529,7 +1543,49 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/components\/css\/_google-fonts-import.css",
+      "oAP" : "\/scss\/components\/css\/_font-family.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/scss\/components\/typography\/_font-weight.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/components\/css\/_font-weight.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/scss\/components\/typography\/_text-color.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/components\/css\/_text-color.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/scss\/components\/typography\/_text-decoration.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/components\/css\/_text-decoration.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

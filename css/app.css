@@ -8144,6 +8144,59 @@ ol.list-upper-roman {
   src: local(""), url("/fonts/lato-v17-latin-700.woff2") format("woff2"), url("/fonts/lato-v17-latin-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
 
+.sansSerif,
+.ff-sans-serif {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.ff-monospace {
+  font-family: 'Source Code Pro', Consolas, 'Liberation Mono', Courier, monospace;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.font-weight-100,
+.font-weight-ultralight {
+  font-weight: 100 !important; }
+
+.font-weight-200,
+.font-weight-thin {
+  font-weight: 200 !important; }
+
+.font-weight-300,
+.font-weight-light {
+  font-weight: 300 !important; }
+
+.font-weight-400,
+.font-weight-regular,
+.font-weight-normal {
+  font-weight: 400 !important; }
+
+.font-weight-500,
+.font-weight-medium {
+  font-weight: 500 !important; }
+
+.font-weight-600,
+.font-weight-semibold {
+  font-weight: 600 !important; }
+
+.font-weight-700,
+.font-weight-bold {
+  font-weight: 700 !important; }
+
+.font-weight-800,
+.font-weight-heavy {
+  font-weight: 800 !important; }
+
+.font-weight-900,
+.font-weight-black {
+  font-weight: 900 !important; }
+
+.color-white,
+.text-white {
+  color: #fff; }
+
+.text-decoration-none {
+  text-decoration: none !important; }
+
 h1,
 h3,
 form#index-contact-form .contact-form-input-group-button input,
@@ -8151,9 +8204,6 @@ form#index-contact-form .contact-form-input-group-button input,
   font-family: 'Source Code Pro', Consolas, 'Liberation Mono', Courier, monospace;
   font-weight: 600;
   text-transform: uppercase; }
-
-.sansSerif {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 h2 {
   font-weight: 700; }
@@ -8182,17 +8232,8 @@ h6 {
   h6 {
     letter-spacing: 0.09375rem; } }
 
-.color-white {
-  color: #fff; }
-
 .text-shadow-black {
   text-shadow: -0.125rem 0.1875rem 0 rgba(0, 0, 0, 0.8); }
-
-.font-weight-300 {
-  font-weight: 300; }
-
-.font-weight-normal {
-  font-weight: normal; }
 
 .p-0 {
   padding: 0; }
