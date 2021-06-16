@@ -1465,7 +1465,7 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/scss\/components\/_components.scss" : {
+    "\/scss\/elements\/_elements.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1473,13 +1473,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/css\/_components.css",
+      "oAP" : "\/scss\/css\/_elements.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/scss\/components\/_padding-margin.scss" : {
+    "\/scss\/elements\/_padding-margin.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1493,7 +1493,7 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/scss\/components\/_resets.scss" : {
+    "\/scss\/elements\/_resets.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1507,7 +1507,7 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/scss\/components\/_utility-classes.scss" : {
+    "\/scss\/elements\/_utility-classes.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1521,7 +1521,7 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/scss\/components\/typography\/_font-face.scss" : {
+    "\/scss\/elements\/typography\/_font-face.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1529,13 +1529,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/components\/css\/_font-face.css",
+      "oAP" : "\/scss\/elements\/css\/_font-face.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/scss\/components\/typography\/_font-family.scss" : {
+    "\/scss\/elements\/typography\/_font-family.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1543,13 +1543,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/components\/css\/_font-family.css",
+      "oAP" : "\/scss\/elements\/css\/_font-family.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/scss\/components\/typography\/_font-weight.scss" : {
+    "\/scss\/elements\/typography\/_font-weight.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1557,13 +1557,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/components\/css\/_font-weight.css",
+      "oAP" : "\/scss\/elements\/css\/_font-weight.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/scss\/components\/typography\/_text-color.scss" : {
+    "\/scss\/elements\/typography\/_text-color.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1571,13 +1571,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/components\/css\/_text-color.css",
+      "oAP" : "\/scss\/elements\/css\/_text-color.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/scss\/components\/typography\/_text-decoration.scss" : {
+    "\/scss\/elements\/typography\/_text-decoration.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1585,13 +1585,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/components\/css\/_text-decoration.css",
+      "oAP" : "\/scss\/elements\/css\/_text-decoration.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/scss\/components\/typography\/_typography.scss" : {
+    "\/scss\/elements\/typography\/_typography.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1599,7 +1599,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/components\/css\/_typography.css",
+      "oAP" : "\/scss\/elements\/css\/_typography.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
