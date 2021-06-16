@@ -8444,6 +8444,13 @@ h6 {
   background: #b3d4fc;
   text-shadow: none; }
 
+.ie-only {
+  display: none;
+  visibility: hidden; }
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .ie-only {
+      display: block;
+      visibility: visible; } }
 .m-0 {
   margin: 0; }
 
@@ -8912,13 +8919,6 @@ h6 {
 .min-width-25 {
   min-width: 25%; }
 
-.ie-only {
-  display: none;
-  visibility: hidden; }
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    .ie-only {
-      display: block;
-      visibility: visible; } }
 .p-0 {
   padding: 0; }
 
