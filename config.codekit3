@@ -1451,6 +1451,20 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/scss\/components\/_components.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/css\/_components.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/scss\/components\/_padding-margin.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1479,20 +1493,6 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/scss\/components\/_typography.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/scss\/css\/_typography.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
     "\/scss\/components\/_utility-classes.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1507,6 +1507,20 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/scss\/components\/typography\/_font-face.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/components\/css\/_font-face.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/scss\/components\/typography\/_fonts.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1516,6 +1530,20 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/components\/css\/_fonts.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/scss\/components\/typography\/_typography.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/components\/css\/_typography.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
